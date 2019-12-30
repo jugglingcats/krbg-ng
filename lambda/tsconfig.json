@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "sourceMap": false,
+    "outDir": "dist",
+    "module": "commonjs",
+    "target": "es6",
+    "lib": [
+      "es6"
+    ],
+    "moduleResolution": "node",
+    "types": [
+      "node"
+    ],
+    "jsx": "react"
+  },
+  "files": [
+    "src/app.ts"
+  ]
+}

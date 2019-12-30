@@ -1,0 +1,5 @@
+{
+  "SITE_URL": "http://dev.krbg.uk:3000",
+  "JWT_SECRET": "ifthisisaman",
+  "RECAPTCHA_SECRET": "6LeVoTMUAAAAANnCO8aq7L-ey2oPVw6dBLQXBlOj"
+}

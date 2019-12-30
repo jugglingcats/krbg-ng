@@ -1,0 +1,98 @@
+.App {
+  /*
+  text-align: center;
+  */
+}
+
+
+.BodyContent {
+  padding: 2em;
+}
+
+.Recaptcha {
+  width: 302px;
+  height: 100px;
+  padding-top: 1em;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.App-userbadge {
+  display: inline-block;
+  padding: 5px 8px 5px 8px;
+  margin: 4px;
+  border: solid 1px grey;
+  border-radius: 5px;
+}
+
+.App-timegroup {
+  display: inline-block;
+  padding: 5px 8px 5px 0px;
+  margin: 4px;
+  border-bottom: dashed 1px #d1d1d1;
+  /*border-radius: 5px;*/
+}
+
+.App-email-message {
+  width: 100%;
+}
+
+.pure-control-group .pure-button {
+  margin: 8px 8px 8px 0;
+}
+
+.App-centered {
+  text-align: center;
+}
+
+.App-evenbuttons button {
+  min-width: 120px;
+}
+
+.App-standoff {
+  margin-top: 10px;
+}
+
+.App-standoff-large {
+  margin-top: 50px;
+}
+
+.App-selectlabel {
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+.App-confirmsave {
+  margin-top: 12px;
+  margin-bottom: 4px;
+}
+
+.App-confirmsave span {
+  padding: 6px 12px 6px 12px;
+  display: inline-block;
+  font-size: smaller;
+  background: rgba(0, 172, 52, 0.18);
+  border-radius: 3px;
+}
+
+.App-time {
+  zoom: 230%;
+  font-size: 10px;
+  display: inline-block;
+  padding-top: 8px;
+  margin-right: 12px;
+  min-width: 30px;
+}
+
+.control-group-inline {
+  display: inline-block;
+}

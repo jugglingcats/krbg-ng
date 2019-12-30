@@ -1,0 +1,11 @@
+{
+  "lambda": {
+    "role": "krbg-ng-lambda-executor",
+    "name": "krbg-ng-lambda",
+    "region": "eu-west-2"
+  },
+  "api": {
+    "id": "msr3zdw7o3",
+    "module": "krbg-ng"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "short_name": "KRBG",
+  "name": "Kensal Rise Backgammon",
+  "icons": [
+    {
+      "src": "/icon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ],
+  "display": "standalone",
+  "orientation": "portrait",
+  "theme_color": "#000000",
+  "background_color": "#f0f0ff"
+}

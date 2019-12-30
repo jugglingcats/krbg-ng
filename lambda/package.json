@@ -1,0 +1,33 @@
+{
+  "name": "krbg-ng-lambda",
+  "version": "1.0.0",
+  "description": "",
+  "main": "krbg-ng.js",
+  "scripts": {
+    "update-dev": "rimraf dist && tsc && claudia update --no-optional-dependencies --timeout 15 --set-env-from-json env_devtest.json --version d --cache-api-config CLAUDIA_CACHE_DEV",
+    "update-live": "rimraf dist && tsc && claudia update --no-optional-dependencies --timeout 15 --set-env-from-json env_live.json --version l --cache-api-config CLAUDIA_CACHE_LIVE",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/jsonwebtoken": "^8.3.5",
+    "@types/nodemailer": "^6.2.2",
+    "@types/react": "^16.9.13",
+    "@types/react-dom": "^16.9.4",
+    "claudia-api-builder": "^4.1.2",
+    "jsonwebtoken": "^8.5.1",
+    "nodemailer": "^6.3.1",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-html-email": "^3.0.0"
+  },
+  "optionalDependencies": {
+    "aws-sdk": "^2.596.0"
+  },
+  "devDependencies": {
+    "copy-dynamodb-table": "^2.0.17",
+    "rimraf": "^3.0.0",
+    "typescript": "^3.7.4"
+  }
+}
