@@ -126,7 +126,7 @@ class _SignUp extends React.Component<ControllerProps & RouteComponentProps<any>
 
                         {this.state.requestEmail || <div className="Recaptcha">
                             <Recaptcha render="explicit" onloadCallback={callback} verifyCallback={verifyCallback}
-                                       sitekey="6LeVoTMUAAAAAEsZ1Pr5kaTV-18vSfm1jsB04nbQ"/>
+                                       sitekey="6LcfSssUAAAAADX1qoCJusyCIhSDJOgE6h3400uE"/>
                         </div>}
 
 

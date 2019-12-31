@@ -27,3 +27,6 @@ yarn-error.log*
 /site/build/
 /lambda/dist/
 /lambda/src/common/
+
+/lambda/env_devtest.json
+/lambda/env_live.json
