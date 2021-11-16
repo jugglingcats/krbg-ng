@@ -23,7 +23,7 @@
     "react-html-email": "^3.0.0"
   },
   "optionalDependencies": {
-    "aws-sdk": "^2.596.0"
+    "aws-sdk": "^2.814.0"
   },
   "devDependencies": {
     "copy-dynamodb-table": "^2.0.17",
